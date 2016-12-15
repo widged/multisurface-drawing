@@ -1,12 +1,14 @@
 # multisurface-drawing
 
-A quick experiment in drawing the same shapes across multiple surfaces (svg, canvas, webgl).
-
+A quick experiment in drawing 2d graphics across multiple surfaces (svg, canvas, webgl).
 
 ## Preview
 
 ![preview](preview.png "Preview")
 
+## Demo
+
+[Live demo](https://widged.github.io/multisurface-drawing/)
 
 ## Develop
 
