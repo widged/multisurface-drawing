@@ -5,8 +5,19 @@
   "main": "index.js",
   "author": "Marielle Pointon",
   "license": "MIT",
+  "scripts": {
+    "test": "mocha --compilers jsx:./test/compiler.js ./src/lib/**/*test.jsx",
+    "clean:dist": "rimraf dist",
+    "watch": "tsc -w",
+    "dev": "env-electron/electron.command & npm run watch",
+    "bundle": "webpack"
+  },
   "dependencies": {
     "react": "^15.4.1",
     "react-dom": "^15.4.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.24.1",
+    "webpack": "^1.14.0"
   }
 }

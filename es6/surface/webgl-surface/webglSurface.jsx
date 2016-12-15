@@ -124,9 +124,9 @@ const renderSeries = (geom, series, container) => {
   // canvas = PIXI.CanvasRenderer
   // webgl = PIXI. WebGLRenderer
   container.innerHTML = '<div>webgl</div>';
-  var renderer = new PIXI.WebGLRenderer(300,200, { transparent: true, antialias: true });
+  var renderer = new PIXI.WebGLRenderer(300,155, { transparent: true, antialias: true });
   renderer.view.style.width = 300 + "px";
-  renderer.view.style.height = 200 + "px";
+  renderer.view.style.height = 155 + "px";
   renderer.view.style.display = "block"; // HTMLCanvasElement
   container.appendChild(renderer.view);
 

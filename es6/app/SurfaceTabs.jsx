@@ -59,9 +59,9 @@ class App extends Component {
   render() {
     const {svgGeoms, canvasGeoms, webglGeoms} = this.state;
     return <TabbedContainer>
-      <page tab="Webgl surface"><SectionsGrid sections={webglGeoms}></SectionsGrid></page>
-      <page tab="Canvas surface"><SectionsGrid sections={canvasGeoms}></SectionsGrid></page>
       <page tab="SVG surface"><SectionsGrid sections={svgGeoms}></SectionsGrid></page>
+        <page tab="Canvas surface"><SectionsGrid sections={canvasGeoms}></SectionsGrid></page>
+      <page tab="Webgl surface"><SectionsGrid sections={webglGeoms}></SectionsGrid></page>
     </TabbedContainer>
   }
 }

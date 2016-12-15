@@ -20,15 +20,15 @@ var loaders = [
 
 module.exports = {
   devtool: 'eval-source-map',
-  entry: path.resolve('src', 'usage', 'preview.jsx'),
+  entry: path.resolve('es6', 'app', 'main.js'),
   output: {
-    path: path.resolve('build'),
+    path: path.resolve('docs'),
     filename: 'bundle.js',
     publicPath: ''
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve('src', 'index.tpl.html'),
+      template: path.resolve('es6', 'index.tpl.html'),
       inject: 'body',
       filename: 'index.html'
     })

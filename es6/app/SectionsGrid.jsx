@@ -1,7 +1,7 @@
 /* jshint esnext: true */
 
 import React from 'react';
-import SurfaceContainer from '../surface/SurfaceContainer';
+import SurfaceContainer from '../surface/SurfaceContainer.jsx';
 
 const {Component} = React;
 
