@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/widged/react-polar-gg.svg)](https://travis-ci.org/widged/react-polar-gg)
-
 # multisurface-drawing
 
 A quick experiment in drawing the same shapes across multiple surfaces (svg, canvas, webgl).
